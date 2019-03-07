@@ -1,0 +1,103 @@
+
+.home{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(235, 148, 184);
+    width: 100%;
+    border-bottom: 2.5px solid black; 
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+    padding-left: 2%;
+}
+
+.logo h1{
+    margin: 0;
+    padding: 1%;
+    width: 100%;
+    color: red;
+}
+
+.logo h2{
+    margin: 0;
+    padding: 1%;
+    width: 100%;
+}
+
+.social-media{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.social-media img{
+    padding-right: 2%;
+}
+
+.linkedin{
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+
+.github{
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+
+.nav{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.651);
+    color: white;
+    list-style-type: none;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+.nav li{
+    border: 1px solid black;
+    padding: 2%;
+    flex: 1;
+}
+
+.nav li:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.438);
+}
+
+.contents{
+    display: flex;
+    width: 100%;
+}
+
+.cover-letter{
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-right: 1px solid black; 
+}
+
+.footer{
+    border-top: 1px solid black;
+    height: 1%; 
+}
